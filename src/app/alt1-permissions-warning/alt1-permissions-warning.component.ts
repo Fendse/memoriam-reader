@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as a1lib from '@alt1/base';
 
 @Component({
 	selector: 'app-alt1-permissions-warning',
