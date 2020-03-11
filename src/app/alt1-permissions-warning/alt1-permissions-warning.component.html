@@ -1,1 +1,16 @@
-<p>alt1-permissions-warning works!</p>
+<div class="alt1-warning" *ngIf="!alt1">
+	Alt1 does not appear to be running
+</div>
+<ng-container *ngIf="alt1">
+	<div class="alt1-warning" *ngIf="!alt1.permissionInstalled">
+		Please install this app by pressing the "Add App" button by the address bar.
+	</div>
+	<ng-container *ngIf="alt1.permissionInstalled">
+		<div class="alt1-warning" *ngIf="!alt1.permissionPixel">
+			This app requires the "View screen" permission to work
+		</div>
+		<div class="alt1-warning" *ngIf="!alt1.permissionOverlay">
+			This app works best if granted the "Show overlay" permission
+		</div>
+	</ng-container>
+</ng-container>
