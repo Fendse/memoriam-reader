@@ -8,13 +8,13 @@ import { Alt1PermissionsWarningComponent } from './alt1-permissions-warning/alt1
 
 @NgModule({
   declarations: [
-    AppComponent,
-    DialogueChunkComponent,
-    DialogueLineComponent,
-    Alt1PermissionsWarningComponent
+	AppComponent,
+	DialogueChunkComponent,
+	DialogueLineComponent,
+	Alt1PermissionsWarningComponent
   ],
   imports: [
-    BrowserModule
+	BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -7,19 +7,19 @@ describe('Alt1PermissionsWarningComponent', () => {
   let fixture: ComponentFixture<Alt1PermissionsWarningComponent>;
 
   beforeEach(async(() => {
-    TestBed.configureTestingModule({
-      declarations: [ Alt1PermissionsWarningComponent ]
-    })
-    .compileComponents();
+	TestBed.configureTestingModule({
+		declarations: [ Alt1PermissionsWarningComponent ]
+	})
+	.compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(Alt1PermissionsWarningComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
+	fixture = TestBed.createComponent(Alt1PermissionsWarningComponent);
+	component = fixture.componentInstance;
+	fixture.detectChanges();
   });
 
   it('should create', () => {
-    expect(component).toBeTruthy();
+	expect(component).toBeTruthy();
   });
 });

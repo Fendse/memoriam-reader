@@ -6,11 +6,11 @@ describe('Alt1Service', () => {
   let service: Alt1Service;
 
   beforeEach(() => {
-    TestBed.configureTestingModule({});
-    service = TestBed.inject(Alt1Service);
+	TestBed.configureTestingModule({});
+	service = TestBed.inject(Alt1Service);
   });
 
   it('should be created', () => {
-    expect(service).toBeTruthy();
+	expect(service).toBeTruthy();
   });
 });
